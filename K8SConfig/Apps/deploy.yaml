@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: rajeshm9/webapp
+        image: shubhasis/webapp
         ports:
         - containerPort: 9080
         readinessProbe:
