@@ -3,9 +3,9 @@ Sample Cloud App with Continous Integration, Continous Deployment and Continous 
 
 1 **Build the Tomcat Application with Actuator enabled for monitoring**
 
-`docker buid . -t rajeshm9/webapp`
+`docker buid . -t shubhasis/webapp`
 
-`docker run -p 8085:9080 rajeshm9/webapp` (Tested it at local for Endpoint and prometheus
+`docker run -p 8085:9080 shubhasis/webapp` (Tested it at local for Endpoint and prometheus
 url)
 
 `docker push` (Image is in docker hub , pushed from my account)
