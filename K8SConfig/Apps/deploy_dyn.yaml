@@ -38,3 +38,15 @@ spec:
         - name: vol
           hostPath:
            path: /var/log/tomcat
+-----------------------------------------------------
+kind: Service
+apiVersion: v1
+metadata:
+  name: tomcat-service
+spec:
+  selector:
+    app: tomcat
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 9080
