@@ -12,7 +12,7 @@ public class SampleController {
 
     @GetMapping("/")
     public String sayHello(@RequestParam(value = "name", defaultValue = "Guest") String name) {
-        return "Welcome to Microsoft TEAM!!!!";
+        return "Welcome to Microsoft TEAM. it costs less!!!!";
     }
     
     @GetMapping("/health")
