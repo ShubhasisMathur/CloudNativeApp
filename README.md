@@ -36,7 +36,7 @@ url)
 
 **Pending**
 - Jenkins Pipeline Setup for build, docker image Publish and Deployment on K8S Setup (Done)
-- Sonarqube for Code Quality Check
+- Sonarqube for Code Quality Check.
 - Adding of Testing Tools for Continous Testing.
 - Security Tools Integration
 - Prometheous AlertManager Intergation
