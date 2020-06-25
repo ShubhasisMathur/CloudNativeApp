@@ -1,4 +1,4 @@
-## Spring Boot Actuator: Health Check, Auditing, Metrics Gathering and Monitoring 
+### Spring Boot Actuator: Health Check, Auditing, Metrics Gathering and Monitoring 
 #
 ## Tutorials 
 
