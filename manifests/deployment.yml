@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: shubhasismathurcloudnativeapp 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: shubhasismathurcloudnativeapp 
+    spec:
+      containers:
+        - name: shubhasismathurcloudnativeapp 
+          image: cloudnativeappregistry.azurecr.io/shubhasismathurcloudnativeapp
+          ports:
+          - containerPort: 80
